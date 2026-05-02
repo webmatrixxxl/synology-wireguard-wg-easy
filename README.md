@@ -1,34 +1,30 @@
 
-# wg-easy v15 Docker Compose Examples
+# Synology wg-easy v15 Docker Compose Examples
 
-These compose files are updated examples for running the maintained `wg-easy` image:
+## BASED ON: 
+[Video: Setup WireGuard On A Synology NAS Running DSM 7.2 Using Container Manager](https://www.youtube.com/watch?v=v0Z1m658Xe8)
 
+These compose files are updated examples for running the **maintained** `wg-easy` image.
+
+**NEW image reference:**
 ```txt
+
+# Image:
 ghcr.io/wg-easy/wg-easy:15.2.2
+
+# Repo:
+https://github.com/wg-easy/wg-easy
 ````
 
-They are intended for people following older tutorials that used the old and unmaintained Docker image:
+They are intended for people following older tutorials that used the **old** and unmaintained Docker image
 
+**OLD image reference:**
 ```txt
-weejewel/wg-easy
-```
-
-Old image reference:
-
-```txt
+# Image:
 https://hub.docker.com/r/weejewel/wg-easy
-```
 
-Maintained project:
-
-```txt
-https://github.com/wg-easy/wg-easy
-```
-
-Video this update relates to:
-
-```txt
-https://www.youtube.com/watch?v=v0Z1m658Xe8
+# Repo:
+https://github.com/WeeJeWel/wg-easy
 ```
 
 ---
