@@ -105,7 +105,7 @@ the custom network definition will not actually be used.
 
 ---
 
-# Option 2: Host Mode
+# Option 2: Host Mode (I GOT FULL SPEED using this)
 
 Use this if bridge mode causes networking or access issues, especially on Synology/NAS setups.
 
