@@ -4,7 +4,7 @@
 These compose files are updated examples for running the maintained `wg-easy` image:
 
 ```txt
-ghcr.io/wg-easy/wg-easy:15.2
+ghcr.io/wg-easy/wg-easy:15.2.2
 ````
 
 They are intended for people following older tutorials that used the old and unmaintained Docker image:
@@ -49,7 +49,7 @@ Use this if you want Docker to publish the required ports manually.
 ```yaml
 services:
   wg-easy:
-    image: ghcr.io/wg-easy/wg-easy:15.2
+    image: ghcr.io/wg-easy/wg-easy:15.2.2
     container_name: wg-easy
     restart: unless-stopped
 
@@ -114,7 +114,7 @@ In host mode, Docker does not need explicit `ports:` mappings because the contai
 ```yaml
 services:
   wg-easy:
-    image: ghcr.io/wg-easy/wg-easy:15.2
+    image: ghcr.io/wg-easy/wg-easy:15.2.2
     container_name: wg-easy
     restart: unless-stopped
     network_mode: "host"
